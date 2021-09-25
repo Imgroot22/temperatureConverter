@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2021-09-25T06:10:31" id="0" hostname="workspacesddzhqs75v5qth6s.ws-868845655f-gtzdz" tests="5" errors="1" failures="5" time="0.162">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.132" classname=".TemperatureConverter">
+    <failure type="">    &lt;input type="number" class="large" [(ngModel)]="celsius" [(ngModelChange)]="[ERROR -&gt;]Change($event,1)" data-test-id="celsius-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+      &lt;input type="number" class="large" [(ngModel)]="[ERROR -&gt;]Fahrenheit" [(ngModelChange)]="Change($event,2)" data-test-id="fahrenheit-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("l&gt;Celsius: &lt;/label&gt;
+"): ng:///TemperatureConverter/template.html@4:80, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+&lt;/div"): ng:///TemperatureConverter/template.html@9:54, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+      &lt;input type="number" class= ... ...
+    at &lt;Jasmine&gt;
+    at syntaxError (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2387:1)
+    at htmlAstToRender3Ast (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:15293:1)
+    at parseTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18077:67)
+    at CompilerFacadeImpl.compileComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18933:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25972:1)
+    at getComponentDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:1826:1)
+    at verifyDeclarationsHaveDefinitions (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25639:1)
+    at &lt;Jasmine&gt;
+    at verifySemanticsOfNgModuleDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25611:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25569:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:15:23
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushCelsiusValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:14:45)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:58:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="TemperatureConverter Perform series of actions" time="0.007" classname=".TemperatureConverter">
+    <failure type="">    &lt;input type="number" class="large" [(ngModel)]="celsius" [(ngModelChange)]="[ERROR -&gt;]Change($event,1)" data-test-id="celsius-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+      &lt;input type="number" class="large" [(ngModel)]="[ERROR -&gt;]Fahrenheit" [(ngModelChange)]="Change($event,2)" data-test-id="fahrenheit-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("l&gt;Celsius: &lt;/label&gt;
+"): ng:///TemperatureConverter/template.html@4:80, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+&lt;/div"): ng:///TemperatureConverter/template.html@9:54, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+      &lt;input type="number" class= ... ...
+    at &lt;Jasmine&gt;
+    at syntaxError (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2387:1)
+    at htmlAstToRender3Ast (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:15293:1)
+    at parseTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18077:67)
+    at CompilerFacadeImpl.compileComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18933:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25972:1)
+    at getComponentDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:1826:1)
+    at verifyDeclarationsHaveDefinitions (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25639:1)
+    at &lt;Jasmine&gt;
+    at verifySemanticsOfNgModuleDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25611:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25569:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:23:26
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushFahrenheitValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:22:48)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:82:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.009" classname=".TemperatureConverter">
+    <failure type="">    &lt;input type="number" class="large" [(ngModel)]="celsius" [(ngModelChange)]="[ERROR -&gt;]Change($event,1)" data-test-id="celsius-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+      &lt;input type="number" class="large" [(ngModel)]="[ERROR -&gt;]Fahrenheit" [(ngModelChange)]="Change($event,2)" data-test-id="fahrenheit-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("l&gt;Celsius: &lt;/label&gt;
+"): ng:///TemperatureConverter/template.html@4:80, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+&lt;/div"): ng:///TemperatureConverter/template.html@9:54, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+      &lt;input type="number" class= ... ...
+    at &lt;Jasmine&gt;
+    at syntaxError (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2387:1)
+    at htmlAstToRender3Ast (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:15293:1)
+    at parseTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18077:67)
+    at CompilerFacadeImpl.compileComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18933:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25972:1)
+    at getComponentDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:1826:1)
+    at verifyDeclarationsHaveDefinitions (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25639:1)
+    at &lt;Jasmine&gt;
+    at verifySemanticsOfNgModuleDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25611:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25569:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:23:26
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushFahrenheitValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:22:48)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:76:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.007" classname=".TemperatureConverter">
+    <failure type="">    &lt;input type="number" class="large" [(ngModel)]="celsius" [(ngModelChange)]="[ERROR -&gt;]Change($event,1)" data-test-id="celsius-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+      &lt;input type="number" class="large" [(ngModel)]="[ERROR -&gt;]Fahrenheit" [(ngModelChange)]="Change($event,2)" data-test-id="fahrenheit-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("l&gt;Celsius: &lt;/label&gt;
+"): ng:///TemperatureConverter/template.html@4:80, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+&lt;/div"): ng:///TemperatureConverter/template.html@9:54, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+      &lt;input type="number" class= ... ...
+    at &lt;Jasmine&gt;
+    at syntaxError (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2387:1)
+    at htmlAstToRender3Ast (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:15293:1)
+    at parseTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18077:67)
+    at CompilerFacadeImpl.compileComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18933:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25972:1)
+    at getComponentDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:1826:1)
+    at verifyDeclarationsHaveDefinitions (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25639:1)
+    at &lt;Jasmine&gt;
+    at verifySemanticsOfNgModuleDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25611:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25569:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:23:26
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushFahrenheitValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:22:48)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:70:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.007" classname=".TemperatureConverter">
+    <failure type="">    &lt;input type="number" class="large" [(ngModel)]="celsius" [(ngModelChange)]="[ERROR -&gt;]Change($event,1)" data-test-id="celsius-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+      &lt;input type="number" class="large" [(ngModel)]="[ERROR -&gt;]Fahrenheit" [(ngModelChange)]="Change($event,2)" data-test-id="fahrenheit-input"/&gt;
+  &lt;/section&gt;
+      &lt;label&gt;Fahrenheit: &lt;/label&gt;
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("l&gt;Celsius: &lt;/label&gt;
+"): ng:///TemperatureConverter/template.html@4:80, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+&lt;/div"): ng:///TemperatureConverter/template.html@9:54, Parser Error: Unexpected token '=' at column 17 in [Change($event,1)=$event] in ng:///TemperatureConverter/template.html@4:80 ("t-between"&gt;
+      &lt;input type="number" class= ... ...
+    at &lt;Jasmine&gt;
+    at syntaxError (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2387:1)
+    at htmlAstToRender3Ast (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:15293:1)
+    at parseTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18077:67)
+    at CompilerFacadeImpl.compileComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:18933:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25972:1)
+    at getComponentDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:1826:1)
+    at verifyDeclarationsHaveDefinitions (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25639:1)
+    at &lt;Jasmine&gt;
+    at verifySemanticsOfNgModuleDef (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25611:1)
+    at Function.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25569:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:15:23
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushCelsiusValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:14:45)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:64:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
